@@ -1,29 +1,44 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import Domu from './Domu';
+import Kontakt from './Kontakt';
+import Oprojektu from './Oprojektu';
+import Onas from './Onas';
 import './style.css';
+import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
 const App = () => (
-  <div class="bg-img">
+  <div className="bg-img">
     <header>
-      <button class="nav-btn"></button>
+      <button className="nav-btn"></button>
       <nav>
-        <a href="">Domů</a>
-        <a href="">O projektu</a>
-        <a href="">O nás</a>
-        <a href="">Kontakt</a>
+        <Link to="/Domu">Domů</Link>
+        <Link to="/Oprojektu">O projektu</Link>
+        <Link to="/Onas">O nás</Link>
+        <Link to="/Kontakt">Kontakt</Link>
       </nav>
     </header>
-    <main>
-      <div class="container">
-        <h1>Máničky a soudruzi</h1>
-        <p>
-          Mrkni na naši časovou osu a zjisti něco o komunismu v Československu
-        </p>
-        <button class="start">Start</button>
-      </div>
-    </main>
-    <footer></footer>
+    <Outlet />
   </div>
 );
 
-createRoot(document.querySelector('#app')).render(<App />);
+createRoot(document.querySelector('#app')).render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route path="domu" element={<Domu />} />
+        <Route path="oprojektu" element={<Oprojektu />} />
+        <Route path="onas" element={<Onas />} />
+        <Route path="kontakt" element={<Kontakt />} />
+        <Route
+          path="*"
+          element={
+            <main style={{ padding: '1rem' }}>
+              <p>Tady není vůbec nic!</p>
+            </main>
+          }
+        />
+      </Route>
+    </Routes>
+  </BrowserRouter>,
+);
