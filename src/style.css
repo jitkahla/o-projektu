@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Sonsie One', cursive;
+}
+
+.bg-img {
+  position: relative;
+}
+
+.bg-img::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.4;
+  background: url('img/dav2.jpg') fixed;
+  z-index: -1;
+}
+
+header {
+  align-items: center;
+  height: 3rem;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  margin: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav-closed {
+  display: none;
+}
+
+.nav-btn {
+  width: 2rem;
+  height: 2rem;
+  background-image: url('img/white-menu-icon.jpg');
+  background-size: contain;
+  background-color: transparent;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-btn:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 80vmin;
+  margin: 30vh auto;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+.start {
+  display: block;
+  background-color: #ff0000;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: auto;
+  padding: 0.6rem;
+  line-height: 3.5;
+  font-family: 'Sonsie One', cursive;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.start:hover {
+  background-color: #fa6161;
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 540px) {
+  .nav-btn {
+    display: none;
+  }
+}
