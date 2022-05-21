@@ -7,20 +7,22 @@ import Onas from './Onas';
 import './style.css';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
-const App = () => (
-  <div className="bg-img">
-    <header>
-      <button className="nav-btn"></button>
-      <nav>
-        <Link to="/Domu">Domů</Link>
-        <Link to="/Oprojektu">O projektu</Link>
-        <Link to="/Onas">O nás</Link>
-        <Link to="/Kontakt">Kontakt</Link>
-      </nav>
-    </header>
-    <Outlet />
-  </div>
-);
+const App = () => {
+  return (
+    <>
+      <header>
+        <button className="nav-btn"></button>
+        <nav>
+          <Link to="/Domu">Domů</Link>
+          <Link to="/Oprojektu">O projektu</Link>
+          <Link to="/Onas">O nás</Link>
+          <Link to="/Kontakt">Kontakt</Link>
+        </nav>
+      </header>
+      <Outlet />
+    </>
+  );
+};
 
 createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
