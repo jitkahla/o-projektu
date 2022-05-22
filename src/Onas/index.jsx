@@ -2,8 +2,8 @@ import React from 'react';
 import Answer from './Answer';
 import Question from './Question';
 import './style.css';
-import VeronikaImg from '../img/Veronika_profile.jpg';
-import JitkaImg from '../img/Jitka_profile.jpg';
+import VeronikaImg from '../img/veronika_profile.jpg';
+import JitkaImg from '../img/jitka_profile.jpg';
 
 const Onas = () => {
   return (

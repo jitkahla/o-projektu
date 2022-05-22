@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
-import JitkaImg from '../img/Jitka_profile.jpg';
-import VeronikaImg from '../img/Veronika_profile.jpg';
+import JitkaImg from '../img/jitka_profile.jpg';
+import VeronikaImg from '../img/veronika_profile.jpg';
 import emailIcon from '../img/email_icon.png';
 import phoneIcon from '../img/phone_icon.png';
 import linkedInIcon from '../img/linkedin_icon.png';
