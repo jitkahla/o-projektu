@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
-import JitkaImg from '../img/jitka_profile.jpg';
-import VeronikaImg from '../img/veronika_profile.jpg';
+import jitkaImg from '../img/jitka_profile.jpg';
+import veronikaImg from '../img/veronika_profile.jpg';
 import emailIcon from '../img/email_icon.png';
 import phoneIcon from '../img/phone_icon.png';
 import linkedInIcon from '../img/linkedin_icon.png';
@@ -16,7 +16,7 @@ const Kontakt = () => {
           <img
             className="profile-img"
             id="jitka-img"
-            src={JitkaImg}
+            src={jitkaImg}
             alt="Jitka Hladká"
           />
           <h3>Jitka Hladká</h3>
@@ -47,7 +47,7 @@ const Kontakt = () => {
           <img
             className="profile-img"
             id="veronika-img"
-            src={VeronikaImg}
+            src={veronikaImg}
             alt="Veronika Sesay"
           />
           <h3>Veronika Sesay</h3>

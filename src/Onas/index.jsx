@@ -2,8 +2,8 @@ import React from 'react';
 import Answer from './Answer';
 import Question from './Question';
 import './style.css';
-import VeronikaImg from '../img/veronika_profile.jpg';
-import JitkaImg from '../img/jitka_profile.jpg';
+import veronikaImg from '../img/veronika_profile.jpg';
+import jitkaImg from '../img/jitka_profile.jpg';
 
 const Onas = () => {
   return (
@@ -14,7 +14,7 @@ const Onas = () => {
           <img
             className="profile-img"
             id="jitka-img"
-            src={JitkaImg}
+            src={jitkaImg}
             alt="Jitka Hladká"
           />
           <h3>Jitka Hladká</h3>
@@ -40,7 +40,7 @@ const Onas = () => {
           <img
             className="profile-img"
             id="veronika-img"
-            src={VeronikaImg}
+            src={veronikaImg}
             alt="Veronika Sesay"
           />
           <h3>Veronika Sesay</h3>

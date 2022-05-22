@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import timeline from '../img/osa1.png';
+import osa from '../img/osa1.png';
 import './style.css';
 
 const Domu = () => {
@@ -37,7 +37,7 @@ const Osa = () => {
         Tady bude v budoucnu naše časová osa, zatím není ještě hotová, ale
         usilovně na ní pracujeme. Podívej se zatím na náš návrh.
         <figure>
-          <img src={timeline} alt="Návrh časové osy" />
+          <img src={osa} alt="Návrh časové osy" />
           <figcaption>Návrh časové osy</figcaption>
         </figure>
       </div>
