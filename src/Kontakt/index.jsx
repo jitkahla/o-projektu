@@ -5,6 +5,7 @@ import VeronikaImg from '../img/veronika_profile.jpg';
 import emailIcon from '../img/email_icon.png';
 import phoneIcon from '../img/phone_icon.png';
 import linkedInIcon from '../img/linkedin_icon.png';
+import githubIcon from '../img/github_icon.png';
 
 const Kontakt = () => {
   return (
@@ -35,6 +36,12 @@ const Kontakt = () => {
               </a>
             </p>
           </div>
+          <div className="contact__detail">
+            <img className="icon" src={githubIcon} alt="GitHub icon" />
+            <p>
+              <a href="https://github.com/jitkahla">jitkahla</a>
+            </p>
+          </div>
         </div>
         <div className="manicka">
           <img
@@ -58,6 +65,12 @@ const Kontakt = () => {
               <a href="https://linkedin.com/in/veronika-sesay-cz">
                 Veronika Sesay
               </a>
+            </p>
+          </div>
+          <div className="contact__detail">
+            <img className="icon" src={githubIcon} alt="GitHub icon" />
+            <p>
+              <a href="https://github.com/veronika-sesay">veronika-sesay</a>
             </p>
           </div>
         </div>

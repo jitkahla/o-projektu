@@ -30,14 +30,14 @@ const App = () => {
             O nás
           </a>
           <a onClick={closeNav} href="/Kontakt">
-            Kontakt
+            Kontakty
           </a>
         </div>
         <nav>
           <Link to="/Domu">Domů</Link>
           <Link to="/Oprojektu">O projektu</Link>
           <Link to="/Onas">O nás</Link>
-          <Link to="/Kontakt">Kontakt</Link>
+          <Link to="/Kontakt">Kontakty</Link>
         </nav>
       </header>
       <Outlet />
