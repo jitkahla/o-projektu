@@ -6,12 +6,33 @@ import Oprojektu from './Oprojektu';
 import Onas from './Onas';
 import './style.css';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
+import { useState } from 'react';
 
 const App = () => {
+  const [navopen, setNavopen] = useState(false);
+  const closeNav = () => setNavopen(false);
+
   return (
     <>
       <header>
-        <button className="nav-btn"></button>
+        <button
+          onClick={() => setNavopen(!navopen)}
+          className="nav-btn"
+        ></button>
+        <div className={navopen ? 'nav-mobile' : 'nav--closed nav-mobile'}>
+          <a onClick={closeNav} href="/Domu">
+            Domů
+          </a>
+          <a onClick={closeNav} href="/Oprojektu">
+            O projektu
+          </a>
+          <a onClick={closeNav} href="/Onas">
+            O nás
+          </a>
+          <a onClick={closeNav} href="/Kontakt">
+            Kontakt
+          </a>
+        </div>
         <nav>
           <Link to="/Domu">Domů</Link>
           <Link to="/Oprojektu">O projektu</Link>

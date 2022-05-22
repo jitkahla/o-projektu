@@ -59,13 +59,8 @@ figure img {
   margin: auto;
   padding: 2rem;
   display: block;
+  max-width: 100%;
 }
 figcaption {
   text-align: center;
-}
-
-@media (min-width: 540px) {
-  .nav-btn {
-    display: none;
-  }
 }
