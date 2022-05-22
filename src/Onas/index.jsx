@@ -36,7 +36,7 @@ const Onas = () => {
           <Question text="Jitka ve třech slovech:" />
           <Answer text="blabla" />
         </div>
-        <div className="manicka manicka--bottom">
+        <div className="manicka">
           <img
             className="profile-img"
             id="veronika-img"
