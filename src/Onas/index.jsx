@@ -56,7 +56,7 @@ const Onas = () => {
           <Question text="Co tě vybíjí?" />
           <Answer text="Administrativní činnosti a setkání s blbcem." />
           <Question text="Kdybys musela emigrovat, kam by to bylo a proč?" />
-          <Answer text="Určitě někam do anglofonního světa, taková Austrálie by nemusela být špatná, pláže, teplo, relax...😎 " />
+          <Answer text="Doufám, že tato situace nikdy nenastane, ale kdyby ano, tak určitě někam do anglofonního světa. Taková Austrálie by nemusela být špatná - pláže, teplo, relax...😎 " />
           <Question text="Kofola nebo Coca-Cola?" />
           <Answer text="Určitě Kofola." />
           <Question text="Veronika ve třech slovech:" />
