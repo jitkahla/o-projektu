@@ -20,21 +20,21 @@ const Onas = () => {
           <h3>Jitka Hladká</h3>
 
           <Question text="Povolání?" />
-          <Answer text="blabla" />
+          <Answer text="Bývalá účetní, budoucí junior front-end vývojářka" />
           <Question text="Co tě přimělo přihlásit se do Digitální akademie?" />
-          <Answer text="blabla" />
+          <Answer text="Na rodičovské jsem objevila Czechitas a nadchla se pro práci v IT, potřebovala jsem změnu." />
           <Question text="Proč Máničky a soudruzi?" />
-          <Answer text="blabla" />
+          <Answer text="Zajímá mě moderní historie, konkrétně období komunistického režimu. Je podle mě důležité připomínat, co se tenkrát dělo. Je škoda, že ve školách se tomuto období věnuje poměrně málo času, proto se snažíme zacílit především na děti." />
           <Question text="Co tě nabíjí?" />
-          <Answer text="blabla" />
+          <Answer text="Běhání a jóga, procházky a dobrá káva." />
           <Question text="Co tě vybíjí?" />
-          <Answer text="blabla" />
+          <Answer text="Arogance a přílišný pesimismus." />
           <Question text="Kdybys musela emigrovat, kam by to bylo a proč?" />
-          <Answer text="blabla" />
+          <Answer text="Rozhodně někam k moři, Španělsko nebo Itálie." />
           <Question text="Kofola nebo Coca-Cola?" />
-          <Answer text="blabla" />
+          <Answer text="A co takhle malinovka?" />
           <Question text="Jitka ve třech slovech:" />
-          <Answer text="blabla" />
+          <Answer text="ještě to nevzdávám:-)" />
         </div>
         <div className="manicka">
           <img

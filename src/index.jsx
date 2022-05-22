@@ -28,6 +28,7 @@ createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
+        <Route index element={<Domu />} />
         <Route path="domu" element={<Domu />} />
         <Route path="oprojektu" element={<Oprojektu />} />
         <Route path="onas" element={<Onas />} />
@@ -35,7 +36,7 @@ createRoot(document.querySelector('#app')).render(
         <Route
           path="*"
           element={
-            <main style={{ padding: '1rem' }}>
+            <main style={{ padding: '3rem' }}>
               <p>Tady není vůbec nic!</p>
             </main>
           }

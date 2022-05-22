@@ -9,7 +9,7 @@ import linkedInIcon from '../img/linkedin_icon.png';
 const Kontakt = () => {
   return (
     <main>
-      <h2>Kontakt</h2>
+      <h2>Kontakty</h2>
       <div className="contact">
         <div className="manicka">
           <img
@@ -25,7 +25,7 @@ const Kontakt = () => {
           </div>
           <div className="contact__detail">
             <img className="icon" src={phoneIcon} alt="phone icon" />
-            <p>+420...</p>
+            <p>+420 739 660 649</p>
           </div>
           <div className="contact__detail">
             <img className="icon" src={linkedInIcon} alt="LinkedIn icon" />
