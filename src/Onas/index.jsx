@@ -46,21 +46,21 @@ const Onas = () => {
           <h3>Veronika Sesay</h3>
 
           <Question text="Povolání?" />
-          <Answer text="blabla" />
+          <Answer text="Event manažerka" />
           <Question text="Co tě přimělo přihlásit se do Digitální akademie?" />
-          <Answer text="blabla" />
+          <Answer text="Chtěla bych změnit obor a najít si kreativnější práci." />
           <Question text="Proč Máničky a soudruzi?" />
-          <Answer text="blabla" />
+          <Answer text="Moderní historie mě baví a myslím, že projekty tohoto typu mají smysl. Velmi často se setkávám s názorem, že historie je ve škole vlastně taková nadstavba, vždyť to vlastně k ničemu pořádně není... S tím nesouhlasím a chtěla bych tedy vytvořit něco, co dětem zábavnou formou tu historii přiblíží a může pomoct tento pohled změnit." />
           <Question text="Co tě nabíjí?" />
-          <Answer text="blabla" />
+          <Answer text="Ruční práce všeho druhu, přátelé a rodina, cestování, vaření a pečení." />
           <Question text="Co tě vybíjí?" />
-          <Answer text="blabla" />
+          <Answer text="Administrativní činnosti a setkání s blbcem." />
           <Question text="Kdybys musela emigrovat, kam by to bylo a proč?" />
-          <Answer text="blabla" />
+          <Answer text="Určitě někam do anglofonního světa, taková Austrálie by nemusela být špatná, pláže, teplo, relax...😎 " />
           <Question text="Kofola nebo Coca-Cola?" />
-          <Answer text="blabla" />
+          <Answer text="Určitě Kofola." />
           <Question text="Veronika ve třech slovech:" />
-          <Answer text="blabla" />
+          <Answer text="Třeba tři V: výřečná, vtipná, veselá." />
         </div>
       </div>
     </>
